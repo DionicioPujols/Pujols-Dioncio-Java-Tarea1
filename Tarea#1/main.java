@@ -9,7 +9,7 @@ public class main{
         System.out.print("\n|| --- Menu Principal --- ||");
         System.out.print("\n|| 1. Calculadora         ||");
         System.out.print("\n|| 2. Numeros par o Impar ||");
-        System.out.println("|| 0. Salir               ||");  
+        System.out.print("\n|| 0. Salir               ||");  
         System.out.print("\n\n Seleccione una opcion: "); 
         opciones = sc.nextInt();
 
