@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.*;
 
 public class ContadorVocales{
     public static void Contar(String[] args){
@@ -6,7 +6,7 @@ public class ContadorVocales{
         System.out.print("Ingrese una frase: ");
         String frase = sc.nextLine().toLowerCase();
 
-        int Contador =0;
+        int Contador = 0;
         for(int i =0; i < frase.length(); i++){
             char c = frase.charAt(i);
             if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
@@ -15,8 +15,5 @@ public class ContadorVocales{
         }
 
         System.out.println("El número de vocales en la frase es: " + Contador);
-        sc.close();
     }
-
-
 }

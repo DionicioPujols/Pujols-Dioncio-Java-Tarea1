@@ -6,10 +6,11 @@ public class main{
     int opciones;
 
     do{
-        System.out.print("\n|| --- Menu Principal --- ||");
-        System.out.print("\n|| 1. Calculadora         ||");
-        System.out.print("\n|| 2. Numeros par o Impar ||");
-        System.out.print("\n|| 0. Salir               ||");  
+        System.out.println("|| === Menu Principal ===||");
+        System.out.println("|| 1. Calculadora         ||");
+        System.out.println("|| 2. Numeros par o Impar ||");
+        System.out.println("|| 4. Contador de Vocales ||");
+        System.out.println("|| 0. Salir               ||");  
         System.out.print("\n\n Seleccione una opcion: "); 
         opciones = sc.nextInt();
 
@@ -19,6 +20,9 @@ public class main{
                 break;
             case 2: 
                 Par_Impar.ParImpar(args);
+                break;
+            case 4:
+                ContadorVocales.Contar(args);
                 break;
             default:
                 break;
