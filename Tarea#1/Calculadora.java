@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Calculadora {
-    // Cambiamos main por un método que puedas llamar desde fuera, pasando el scanner
-    public static void Inicio(Scanner sc) {
+    public static void Inicio(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int opciones;
         
         do {
@@ -27,6 +27,7 @@ public class Calculadora {
                 System.out.print("Ingrese el segundo numero: ");
                 int b = sc.nextInt();
 
+            //menu de opciones antes de realizar las operaciones.
                 switch(opciones) {
                     case 1:
                         System.out.println("La suma es: " + suma(a, b));

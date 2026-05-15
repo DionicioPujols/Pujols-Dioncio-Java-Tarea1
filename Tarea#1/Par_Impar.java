@@ -7,7 +7,7 @@ public class Par_Impar{
 
         System.out.print("Ingrese un numero: ");
         n = sc.nextInt();
-        if(n % 2 == 0){
+        if(n % 2 == 0){  //Si el residuo del numero dividido entre 2 = 0, entonces es par.
             System.out.println("El numero "+ n + " es par");
         }else{
             System.out.println("El numero "+ n +" es impar");
