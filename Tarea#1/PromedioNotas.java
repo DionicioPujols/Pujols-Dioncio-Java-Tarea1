@@ -3,7 +3,7 @@ import java.util.*;
 public class PromedioNotas{
     public static void Promedio(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese la cantidadde notas: ");
+        System.out.print("Ingrese la cantidad de notas: ");
         int n = sc.nextInt();
 
         //Sirve para sumar el total de las notas ingresadas por el usuario.

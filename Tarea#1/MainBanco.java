@@ -8,7 +8,7 @@ public class MainBanco{
 
         ArrayList<CuentaBancaria> cuentas = new ArrayList<>();
 
-        System.out.print("Ingrese la cantidad cuentas bancariasque desea crear: ");
+        System.out.print("Ingrese la cantidad de cuentas bancarias que desea crear: ");
         int n = sc.nextInt();
 
         for(int i = 0; i < n; i++){
@@ -37,7 +37,7 @@ public class MainBanco{
             System.out.println("Tipo de cuenta: " + cuenta.getTipoCuenta());
             System.out.println("Moneda: " + cuenta.getMoneda());
             System.out.println("Numero de cuenta: " + cuenta.getNumeroCuenta());
-            System.out.println("Saldo: " + cuenta.getSaldo());
+            System.out.println("Saldo: " + cuenta.getSaldo() + " DOP$");
             System.out.println("-----------------------------------------------");
         }
     }
