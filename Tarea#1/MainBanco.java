@@ -4,7 +4,7 @@ public class MainBanco{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("|| Bienvenido al Banco ||");
+        System.out.println("\n|| Bienvenido al Banco |\n|");
 
         ArrayList<CuentaBancaria> cuentas = new ArrayList<>();
 

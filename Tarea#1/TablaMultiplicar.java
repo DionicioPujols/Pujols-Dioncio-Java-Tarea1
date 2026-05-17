@@ -4,6 +4,8 @@ public class TablaMultiplicar{
     public static void Tabla(String[] args){ 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("\n|| Programa para mostrar una tabla de multiplicar ||\n");
+        
         System.out.print("\nIngresa un número: ");
         int n = scanner.nextInt();
         

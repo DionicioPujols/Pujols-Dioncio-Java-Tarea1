@@ -3,6 +3,8 @@ import java.util.*;
 public class ContadorVocales{
     public static void Contar(String[] args){
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("\n|| Contador de Vocales ||\n");
         System.out.print("Ingrese una frase: ");
         String frase = sc.nextLine().toLowerCase();//paso un toLowerCase para que no haya problemas con las mayusculas.
 
